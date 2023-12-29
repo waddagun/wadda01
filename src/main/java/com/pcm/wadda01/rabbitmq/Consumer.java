@@ -15,11 +15,7 @@ public class Consumer {
     @RabbitListener(queues = "hello")
     public void consume(Message message){
         log.info("consumer consumes message: {}",message);
-<<<<<<< Updated upstream
-=======
-
-        //develop2
->>>>>>> Stashed changes
     }
 
+    
 }
